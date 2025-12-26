@@ -4,28 +4,36 @@ import Button from './Button'
 const Section1 = () => {
   return (
     <div className='section1 
-    mt-15 h-70  rounded-xl text-white bg-[url("https://bramki-sportowe.pl/wp-content/uploads/2025/07/padel.jpg")] bg-no-repeat bg-cover bg-pos bg-center relative py-5 px-4
+    mt-15 h-75  rounded-xl text-white bg-[url("https://bramki-sportowe.pl/wp-content/uploads/2025/07/padel.jpg")] bg-no-repeat bg-cover bg-top py-5 px-4 flex flex-col justify-between
     sm:mt-5 sm:h-115 sm:pt-10 sm:px-12 sm:pb-4 
+    md:bg-top
+    lg:bg-center
     ' >
 
       <div className="Top 
       text-center flex flex-col gap-3 justify-center items-center
       sm:gap-10
+      md:gap-3
       ">
-        <h1 className='text-[19px] sm:text-3xl'>Unleash Your Inner Champion Today. <br /> All In One Place.</h1>
-        <p className='
-        text-xs font-thin mb-8 sm:text-sm sm:mb-14
-        '>Join the ultimate tennis experience where passion meets performance. and every swing brings you closer to victory
+        <h1 className='text-[19px] max-w-123 
+        sm:text-3xl  
+        lg:text-[35px] lg:max-w-143 
+        xl:text-[38px] xl:max-w-163 
+        '>Unleash Your Inner Champion Today. <br /> All In One Place.</h1>
+        <p className='text-xs font-thin mb-6 max-w-110 
+        sm:text-sm sm:mb-14
+        md:text-sm md:mb-0
+        '>Join the ultimate tennis experience — where passion meets performance. <br /> and every swing brings you closer to victory
         </p>
         <Button text="Start your own journey" />
       </div>
 
       <div className="Bottom 
-      absolute bottom-2 left-4 z-10 flex w-full justify-between
+      bottom-2 left-4 z-10 flex w-full justify-between
       sm:bottom-4 sm:left-12
       ">
         <div className="left 
-        flex flex-col justify-center font-thin  w-fit text-[10px] gap-2
+        flex flex-row justify-center items-center font-thin  w-fit text-[10px] gap-2
         sm:flex-row sm:items-center sm:text-xs
         ">
           <p>Train with real professionals. <br /> Get the real results.</p>
@@ -36,8 +44,8 @@ const Section1 = () => {
           </span>
         </div>
         <div className="right 
-        text-[10px] font-thin flex flex-col mr-8
-        sm:flex-row sm:items-center sm:text-xs sm:mr-24
+        text-[10px] font-thin flex flex-col 
+        sm:flex-row sm:items-center sm:text-xs 
         ">
           <a href="">Instagram <i className="ri-arrow-right-up-long-line font-thin ml-0.5"></i></a>
           <a href="">Facebook <i className="ri-arrow-right-up-long-line font-thin ml-0.5"></i></a>
