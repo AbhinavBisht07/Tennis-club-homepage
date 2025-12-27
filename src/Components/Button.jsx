@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Button = (props) => {
-  if (props.text === "Book now") {
+  if (props.text === "Book now" || props.text === "Explore More" ) {
     return (
       <div >
         <button className="pr-3 pl-4 py-1 rounded-2xl bg-slate-900 text-white text-xs font-thin 

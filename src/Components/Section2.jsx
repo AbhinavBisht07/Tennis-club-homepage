@@ -5,14 +5,15 @@ import SmallCircle from './SmallCircle'
 const Section2 = () => {
     return (
         <div className='mt-20 flex flex-col justify-start items-start gap-7'>
+
             <div className="top
-      flex flex-col justify-between
-      md:flex-row
-      ">
+                flex flex-col justify-between
+                md:flex-row
+            ">
                 <Anchor text="About Horizon" />
-                <p className='w-full pl-2 pr-2 text-slate-900
-        md:w-1/2
-        '>At Horizon, we don't just play tennis we live it. Since 2021, our club has been a home for players of all levels, from eager beginners to seasoned pros.</p>
+                <p className='w-full pl-2 pr-2 text-slate-700 font-medium
+                    md:w-1/2 text-xl
+                '>At Horizon, we don't just play tennis — we live it. Since 2021, our club has been a home for players of all levels, from eager beginners to seasoned pros.</p>
             </div>
 
             <div className="mid
@@ -24,7 +25,7 @@ const Section2 = () => {
                 md:w-1/3 md:p-5 md:pt-2 md:h-72
                 ">
                     <img className='w-20' src="./src/assets/tennisCourt.png" alt="" />
-                    <p className='text-white inline-block'>Professional hard courts <span className='text-slate-500'>with tournament-grade lighting & climate control play in</span> perfect conditions. in any season</p>
+                    <p className='text-white inline-block'>Professional hard courts <span className='text-slate-500'>with tournament-grade lighting & climate control — play in</span> perfect conditions. in any season</p>
                     <div className='flex gap-2 items-center mt-8'>
                         <div className='w-12 h-6 p-1 bg-sky-500 rounded-3xl flex justify-end '>
                             <div className='w-4 h-4 rounded-full bg-white '> </div>
@@ -42,7 +43,7 @@ const Section2 = () => {
                 </div>
 
                 <div className="card3 
-                rounded-2xl bg-[#e1e1ff] pt-5 px-4 pb-4 flex flex-col gap-7
+                rounded-2xl bg-[#ececff] pt-5 px-4 pb-4 flex flex-col gap-7
                 md:w-1/3 md:h-72 md:px-2 lg:px-4
                 ">
                     <div className='flex flex-col gap-2 md:gap-0'>
