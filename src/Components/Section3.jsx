@@ -46,7 +46,7 @@ const Section3 = () => {
 
             <div className="square3 
             rounded-2xl  flex flex-col w-full justify-between
-            md:w-1/3 md:h-70 md:p-0 md:p-5
+            md:w-1/3 md:h-70 md:p-5
             ">
                 <div className='relative'>
                     <img className='w-full h-50 object-cover rounded-2xl
