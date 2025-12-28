@@ -5,6 +5,7 @@ const Button = (props) => {
     return (
       <div >
         <button className="pr-3 pl-4 py-1 rounded-2xl bg-slate-900 text-white text-xs font-thin 
+        cursor-pointer active:scale-[0.9] transition duration-300 ease-in-out
         sm:py-1.5 
         md:text-[14px] 
         ">
@@ -17,6 +18,7 @@ const Button = (props) => {
   else {
     return (
       <button className="px-3.5 py-1 rounded-2xl bg-slate-900 text-white text-xs font-thin 
+      cursor-pointer active:scale-[0.9] transition duration-300 ease-in-out
       sm:py-1.5 
       md:text-[14px]
       ">

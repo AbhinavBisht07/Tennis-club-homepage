@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Section3 = () => {
     return (
-        <div className='mt-20 flex flex-col gap-3
+        <div className='mt-30 mb-30 flex flex-col gap-3
         md:flex-row justify-center items-center
         '>
 
@@ -13,7 +13,7 @@ const Section3 = () => {
             md:w-1/3 md:h-70
             ">
                 <div className='flex flex-col gap-5'>
-                <Anchor text="Services" />
+                <Anchor text="SERVICES" />
                 <p className='text-xl font-medium text-slate-700
                 md:text-sm
                 lg:text-lg
@@ -45,8 +45,8 @@ const Section3 = () => {
             </div>
 
             <div className="square3 
-            rounded-2xl p-5 flex flex-col w-full justify-between
-            md:w-1/3 md:h-70 md:p-0
+            rounded-2xl  flex flex-col w-full justify-between
+            md:w-1/3 md:h-70 md:p-0 md:p-5
             ">
                 <div className='relative'>
                     <img className='w-full h-50 object-cover rounded-2xl

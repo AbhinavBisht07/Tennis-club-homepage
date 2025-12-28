@@ -4,13 +4,13 @@ import SmallCircle from './SmallCircle'
 
 const Section2 = () => {
     return (
-        <div className='mt-20 flex flex-col justify-start items-start gap-7'>
+        <div className='mt-30 flex flex-col justify-start items-start gap-7'>
 
             <div className="top
                 flex flex-col justify-between
                 md:flex-row
             ">
-                <Anchor text="About Horizon" />
+                <Anchor text="ABOUT HORIZON" />
                 <p className='w-full pl-2 pr-2 text-slate-700 font-medium
                     md:w-1/2 text-xl
                 '>At Horizon, we don't just play tennis — we live it. Since 2021, our club has been a home for players of all levels, from eager beginners to seasoned pros.</p>
